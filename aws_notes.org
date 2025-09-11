@@ -889,7 +889,9 @@ Block level storage volumes for use with EC2 instances.
   - I/O-intensive workloads, particularly database workloads, which are sensitive to storage performance and consistency.
   - Higher durability and supports provisioning 500 IOPS/GB.
   - EBS io2 has 100x better volume durability and a 10x higher IOPS to storage ratio than io1, for the same price as io1.
-
+  - io1	64,000	1,000 MB/s	Older generation provisioned IOPS.
+  io2	256,000	4,000 MB/s	Higher durability (99.999%). Better price/perf than io1.
+  io2 Block Express	256,000	up to 64,000 MB/s	Next-gen architecture. Very low latency (<1 ms). Supports volumes up to 64 TiB.
   [[./img/amazon_ebs_io.png]]
 
 - Throughput Optimized st1:
