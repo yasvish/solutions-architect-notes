@@ -272,7 +272,7 @@ Determines how instances are placed on underlying hardware.
   - Used for small number of critical instances that need to be kept separated from each other.
 
 - Partition: groups of instances spread apart to reduce the likelihood of correlated failures for large distributed and replicated workloads.
-  - Maximum of 7 partitions  per AZ - each can have 100s of instances.
+  - Maximum of 7 partitions  per AZ - each can  many instances.
   - Also used when you  need the spread groups features but have more than 7 instances per AZ.
 
 [[./img/ec2_placement_groups_partition.png]]
