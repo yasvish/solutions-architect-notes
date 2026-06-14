@@ -1478,7 +1478,7 @@ Automatically scales storage capacity in response to growing database workloads,
 - *IMPROTANT:* VPC attributes DNS hostnames and DNS resolutions must be enabled to allow public access to a DB instance withing a VPC.
 
 - Security Groups:
-  - DB Security Groups: controls access to a DB instance that is not in a VPC. By default, network access is turned off to a DB instance.
+  - DB Security Groups: controls access to a DB instance that is not in a VPC. By default, network access is turned off to a DB instance. ( OLD - NOT USED ANYMORE )
   - VPC Security Groups: controls access to a DB instance inside a VPC.
   - EC2 Security Groups: controls access to an EC2 instance and can be used with a DB instance.
 
