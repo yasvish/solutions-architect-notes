@@ -632,7 +632,7 @@ Serverless function-as-a-service used for short running & focused stateless task
   - _Can only accept a payload of up to 256 KB_.
   - *Function code needs to be idempotent*.
   - If the function fails, it will retry between 0 and 2 times (configurable).
-    - Events can be sent to a dead letter queue after repeated failures in processing.
+    - Events can be sent to a dead letter queue after repeated failures in processing. or destinations ( newer - failure and success) 
   - Examples: S3, CW Logs, EventBridge, CodeCommit, CloudFormation, Config, API Gateway (by specifying Event in the X-Amz-Invocation-Type request header of a non-proxy integration).
 
   [[./img/lambda_invokation_asynchronous.png]]
